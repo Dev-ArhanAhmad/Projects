@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        @media only screen and (max-width: 580px) {
+            .image {
+                width: 300px;
+                height: auto;
+            }
+
+            .Page {
+                width: 100%;
+                margin-top: 1rem;
+                padding: 0 1rem;
+            }
+
+            .container {
+                position: relative;
+            }
+        }
+
+        @media only screen and (min-width: 581px) {
+            .container {
+                display: flex;
+                align-items: flex-start;
+            }
+
+            .image {
+                width: 800px;
+                height: 800px;
+            }
+
+            .Page {
+                width: 50%;
+                padding: 0 1rem;
+                position: absolute;
+                top: 0;
+                left: 50rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="image" src="./Screenshot 2024-05-16 122837.png" alt="">
+        <div class="Page">
+            <h1><img src=".//Screenshot 2024-05-16 124016.png" alt="" width="40px" class="image2"
+                    style="margin-left: 3rem;margin-top: 10px; ">Leaf
+            </h1>
+            <h1>Create Account</h1>
+            <h2>Full Name</h2>
+            <div style="width: 250px;">
+                <input type="text" placeholder="            Enter Full Name"
+                    style="width: 16rem;height: 3rem; border-radius: 10px;position: absolute;">
+                <img src="./Screenshot 2024-05-16 125137.png" alt="" width="40px" class="image2"
+                    style="margin-top:2px; position: relative;margin-left: 5px;">
+            </div>
+            <h2>Email</h2>
+            <div style="width: 250px;">
+                <input type="text" placeholder="             Enter Your Email"
+                    style="width: 16rem;height: 3rem; border-radius: 10px;position: absolute;">
+                <img src="./Screenshot 2024-05-16 124908.png" alt="" width="40px" class="image2"
+                    style="margin-top:2px ;position: relative; margin-left: 5px;">
+            </div>
+            <h2>Password</h2>
+            <div style="width: 250px;">
+                <input type="text" placeholder="             Enter Your Password"
+                    style="width: 16rem;height: 3rem; border-radius: 10px;position: absolute;">
+                <img src="./Screenshot 2024-05-16 124928.png" alt="" width="40px" class="image2"
+                    style="margin-top:2px;position: relative; margin-left: 5px;">
+            </div>
+
+            <button style="width: 16rem;height: 4rem; font-size: x-large;background-color:darkgreen;color: white;
+                            border-radius: 15px;margin-top: 2rem;">Signup</button>
+            <h3 style="font-size: x-large;margin-left: 7rem;">-OR-</h3>
+            <ul style="list-style: none;display: flex; gap: 1rem; ">
+                <li><img src="./Screenshot 2024-05-16 124952.png" alt="" width="70px"></li>
+                <li><img src="./Screenshot 2024-05-16 125030.png" alt="" width="70px"></li>
+                <li><img src="./Screenshot 2024-05-16 125056.png" alt="" width="70px"></li>
+            </ul>
+            <h2>Already have an account?
+                <br><button style="font-size: x-large;">Login</button>
+            </h2>
+        </div>
+    </div>
+</body>
+
+</html>
